@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The International Mathematical Modeling Challenge (IMMC)</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-image: url(../images/BlankMap-World-v4.jpg);
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #0000FF;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #0000FF;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds all other divs ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	overflow: hidden; /* this declaration makes the .container understand where the floated columns within ends and contain them */
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 200px;
+	background-color: #FAAD81;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 750px;
+	float: left;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 180px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #FAAD81;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #FAAD81;
+	color: #FFF;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.container .content ol li a {
+	color: #00F;
+}
+.red {
+	color: #F00;
+}
+.container .sidebar1 .nav li a strong {
+	color: #000;
+}
+.container .sidebar1 .nav li strong a {
+	color: #000;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="sidebar1">
+    <ul class="nav">
+      <img src="../images/IM2C-logo-small2.jpg" width="200" height="200" />
+      <li></li>
+      <li><a href="../Index.html"><strong>Home</strong></a></li>
+      <li><a href="About.html"><strong>About</strong></a></li>
+      <li><strong><a href="Worldmap.html">How to Get Involved</a></strong></li>
+      <li><strong><a href="Sample.html">Sample Problems</a></strong></li>
+      <li><strong><a href="Rules.html">Instructions/Rules</a></strong></li>
+      <li><strong><a href="../Contests/index.html">Problems, Results and Solutions</a></strong></li>
+      <li><strong><a href="Contact.html">Contact</a></strong></li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><!-- end .sidebar1 --></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <div class="content">
+    <h3>Contest Instructions and Rules</h3>
+    <h3><span class="red">The rules below apply to the international round only.</span> <br />
+      <a href="Rules/Country.html">To view the rules specific to your region click here.</a><br />
+    </h3>
+    <p>To enter in the 2022 IM<sup>2</sup>C teams must first be selected by their participating country/region. </p>
+    <p>To participate in IM<sup>2</sup>C a team must have a faculty advisor from that school. There are several procedures that a team's                         advisor must go through at various times before, during,                         and after the contest. Please read these instructions carefully                         and be sure to complete all the steps involved. It is the                         advisor's responsibility to make sure that teams follow all steps required for participation                         in IM<sup>2</sup>C. </p>
+    <p align="left"><strong>Note that IM<sup>2</sup>C is in the USA Eastern time                         zone: all times given in these instructions are in terms                         of Eastern Daylight Time (EDT) except where local time is                         noted.</strong> <br />
+  </p>
+    <p align="left"><strong>Contest Rules </strong></p>
+    <ol>
+      <li>A team may consist of up to four secondary or below                         students, enrolled in the same school. </li>
+      <li>You must obtain and use your control                           number and password to participate in the 8th                           annual IM<sup>2</sup>C. <a href="http://immchallenge.org/Contests/index.html">Teams must log on to the IM<sup>2</sup>C web site </a> at the beginning of their 5 day contest period                           (not before 3:01                           p.m. on Monday, March 7,                           2022)                           to receive the contest problems. </li>
+      <li>Teams will be given access to the modeling problem. </li>
+      <li>The contest runs between 3:01                           p.m. EDT Monday, March 7th, 2022                         and 3:00 p.m. EDT on Monday, May 2nd,                           2022. </li>
+      <li>Each team will decide on a consecutive 5 day period between March 7 - May 2 to work on the contest problem. For example, the contest for your team could be from 8:00 a.m. on Monday, March 14 until 8:00 a.m. on Saturday, March 19. Your teams' contest ends upon completion of the 5 day period. Some countries/areas may require teams to work on the contest problem on the 5 consecutive days during a specified period.</li>
+      <li>Faculty advisors must ensure that no                           alterations of any form are made after the end of your                           5 day period or after 3:00 p.m. EDT Monday, May 2,                           2022.                           Papers must be collected from students at this time to be emailed  to IM<sup>2</sup>C for judging. </li>
+      <li>All papers must be received no later                           than 5:00 p.m. EDT Monday, May 2,                           2022. </li>
+      <li>A signed <a href="parental_permission.html" target="_blank">Parental/Guardian                           Authorization</a> form must be included for each participating                           student. Schools should send the original forms to IM<sup>2</sup>C,                           and retain a copy of each for their records. </li>
+      <li>All accommodations relative to learning                           conditions for individual students would follow the accommodations                           used as part of the local school program in an affected                           student's daily learning. If specialized staff is required,                           the school bears the responsibility for providing any                           specialized assistance as required by law. If such accommodations                           are required for a student participating, the school should                           detail them and the extent to which they were utilized                           as part of the IM<sup>2</sup>C activities.<br />
+      <br />
+    </li>
+    </ol>
+    <p align="left"><strong>Your Team(s) Online:<br />
+      </strong></p>
+    <p align="left">Each team will be assigned a control number. <br />
+        <strong><br />
+        Important:</strong> Be sure to use a valid current email address                         so that we can use it to contact you at any point before,                         during, or after the contest, if necessary. <br />
+    </p>
+    <p align="left"> </p>
+    <p align="left"><strong>Preparing a Team </strong></p>
+    <ol>
+      <li>Go to the IM<sup>2</sup>C web site and review the                           rules, guidelines and problems to prepare                           your students. </li>
+      <li>Ensure that students have access to computers                           that enable them to word process, use a spreadsheet, and                           dynamically model both graphs and geometric relationships.                           In addition, students should have access to graphing calculators. </li>
+      <li>It is both legitimate and desirable to                           coach or otherwise prepare your team(s). Visit the IM<sup>2</sup>C                           web site at www.immchallenge.org and click on <a href="Sample.html">Sample Problems</a> to prepare your students.</li>
+      <li>All parents of students participating                           in the contest must sign a <a href="parental_permission.html" target="_blank">Parental/Guardian                           Authorization Form</a> making their child's work available                           (with confidentiality assurance) for use in example and                           training materials for IM<sup>2</sup>C professional development                           activities. Additionally, should their team be designated                           as an Outstanding winner, the student's Solution Paper                           (or solution abstract) will be published. THIS AUTHORIZATION FORM                           MUST BE <a href="parental_permission.html" target="_blank">DOWNLOADED                           FROM THE INTERNET</a> AND SENT HOME WITH EACH STUDENT                           BEFORE THE CONTEST PERIOD. SIGNED AUTHORIZATION FORMS                           FOR EACH STUDENT MUST BE INCLUDED WITH SOLUTION PAPERS                           FOR CONSIDERATION BY THE JUDGES.</li>
+    </ol>
+    <p align="left"> <strong>Preparing a Solution Paper </strong></p>
+    <ol>
+      <li>The contest problem will become available at 3:01 pm EDT on Monday, March 7, 2022 for country/region representative/organizer to acquire. When teams are ready to compete the team advisor must login to their country/regional website to view the problem, or acquire the problem from their country/region representative/organizer. Once you view the problem we recommend that you print out a copy for your students at the beginning of your contest period.<br />
+      </li>
+      <li>Teams may use any inanimate source of                           data, materials, computers, software, references, websites,                           books, etc. Be sure to credit all sources used.</li>
+      <li>Teams may not use any person (other than                           team members) to discuss or obtain ideas for solving their                           problem <strong>nor may</strong> <strong>they seek help in obtaining                           an answer from the teams' advisor or anyone else</strong>.                           Any team that discusses the problem with anyone in a position                           to supply them with information reflecting experience                           or professional expertise will be disqualified. The relevant                           issue is one of intent: each team of students is expected                           to develop all of its substantive analysis without the                           help of others.</li>
+      <li>Partial solutions are acceptable. There                           is no passing or failing cutoff score, nor will numerical                           scores be assigned. The IM<sup>2</sup>C judges are primarily interested                           in a teams' approach and methods.</li>
+      <li>Papers must be typed and in English with a readable font of at least 12 point type. NOTE: Papers may be submitted to the local representative in their native language but must be translated into English prior to the contest deadline. The local representative must certify that any translation is of the actual paper submitted, i.,e. no changes have been made during the time it takes to translate the paper. The translation must be a word for word translation and no improvements may be made. If your country chooses to allow teams to submit papers in their native language you must incorporate translation time into your contest window as the final English solutions must still be received by the contest deadline 3:00 p.m. EDT on Monday, May 2, 2022.</li>
+      <li>Your submission should consist of a 1 page Summary Sheet and your solution cannot exceed 20 pages for a maximum of 21 pages. (The appendices and references should appear at the end of the paper and do not count toward the 20 page limit.)</li>
+      <li>The solution must consist entirely of                           written text and possibly figures, charts, or other written                           material only. No non paper support such as                           computer disks will be accepted.</li>
+      <li><strong>Each page of the solution must contain                           the team control number and the page number at the top                           of the page;</strong> we suggest using a page header on each                           page for example: Team # 2022000 page                           6 of 13.</li>
+      <li>The names of the students, advisor, or                           institution must not appear on any page of the solution.                           The solution must not contain any identifying information                           other than the team Control Number.</li>
+      <li>
+        <div align="left">Any preparation rule                             not followed is grounds for disqualification.</div>
+      </li>
+      <li>
+        <div align="left">Teams should keep in                             mind the following guidelines while preparing their                             solution papers:</div>
+      </li>
+    </ol>
+    <ul>
+      <li>Conciseness and organization are extremely                           important. Key statements should present major ideas and                           results.</li>
+      <li>Present a clarification or restatement                           of the problem as appropriate.</li>
+      <li>Present a clear exposition of all variables,                           assumptions, and hypotheses.</li>
+      <li>Present an analysis of the problem, motivating                           or justifying the modeling to be used.</li>
+      <li>Include a design of the model. Discuss                           how the model could be tested.</li>
+      <li>Discuss any apparent strengths or weaknesses                           to your model or approach.</li>
+      <li>Incorporate lengthy derivations, computations,                           or illustrative examples in appendices. Summarize these                           in the main report. Results must be explicitly stated                           in the body of the report. <br />
+        <br />
+      </li>
+    </ul>
+    <p align="left"><strong>Preparing and Submitting                         a Solution Paper </strong></p>
+    <ol>
+      <li><strong>The Summary Sheet</strong><br />
+        Type a summary of the teams solution this should be the first page of your solution.<br />
+      The summary is a very important part of your IM<sup>2</sup>C paper.                           The judges place considerable weight on the summary, and                           winning papers are sometimes distinguished from other papers based on the quality of                           the summary. To write a good summary, imagine that a reader                           may choose whether to read the body of the paper based                           on your summary. Thus, a summary should clearly describe                           your approach to the problem and, most prominently, what                           your most important conclusions were. The summary should                           inspire a reader to learn the details of your work. Your                           concise presentation of the summary should inspire a reader                           to learn the details of your work. Summaries that are                           mere restatements of the contest problem, or are a cut-and-paste                           boilerplate from the Introduction are generally considered                         to be weak. </li>
+      <li>Teams must end all work on the Solution                           Paper at the end of the team's consecutive 5 day period,                           or by 3:00 p.m. EDT on Monday, May 2,                           2022.</li>
+      <li>Send an electronic copy of the Solution Paper by email:
+        <blockquote>
+          <p>3-1.      Each team is required to submit an electronic copy of its solution paper online to their country/region representative/organizer.</p>
+          <blockquote>
+            <p>a.   Your electronic submission MUST be received at IM2C on or before the submission deadline set by your country/region. The up to 2 representing papers selected by their country/region MUST be received by IM2C International Expert Panel from the representative/organizer at <a href="mailto:solutions@immchallenge.org">solutions@immchallenge.org</a> on or before the deadline of 5PM EDT on May 2, 2022. </p>
+            <p>b.   Failure to submit a solution online by 5PM EDT on May 2, 2022 constitutes a violation of the contest rules and will result in that representing team's disqualification.          </p>
+          </blockquote>
+          <p>3-2.      In the subject line of your email write: IMMC and your team's control number. For example:                                                          Subject:  IMMC 2022000</p>
+          <p>3-3.      Use your team's control number as the name of your file attachments.</p>
+          <p>3-4.      IM<sup>2</sup>C will accept only an Adobe PDF or Microsoft Word file of your solution. <u>DO NOT</u> include programs or software with your email as they will not be used   in the judging process. Limit one solution per email. The names of the   students, advisor, or institution should <u>NOT</u> appear on any page of the   electronic solution. <u>Page 1 of the teams electronic solution should be the team summary.</u> *Note: The attachment must be less than 17MB. </p>
+        </blockquote>
+      </li>
+      <li>Have each student sign the Control Sheet,                             pledging that they have abided by the contest rules and                             instructions. </li>
+      <blockquote>
+        <p>To Summarize:<br />
+          <br />
+          a. Restatement Clarification of the Problem - state in                             your own words what you are going to do. Assumptions with Rationale/Justification - emphasize                             those assumptions that bear on the problem. List clearly                             all variables used in your model.<br />
+          Model Design and justification for type model used/developed.<br />
+          Model Testing and Sensitivity Analysis, including error                           analysis, etc.<br />
+          Discuss strengths and weakness to your model or approach.<br />
+          Provide algorithms in words, figures, or flow charts                           (as a step by step algorithmic approach) for all computer                           codes developed.<br />
+          <br />
+          b. Send electronic copy of Solution Paper by email: See #3 above for more details. <br />
+          <br />
+          c. Print out one copy of the the teams Control Sheet. Be sure to have all the students sign.</p>
+        <p>d. Collect all the signed <a href="parental_permission.html" target="_blank">Parental/Guardian                           Authorization Forms</a>.      </p>
+      </blockquote>
+      <li>Be sure there is a signed <a href="parental_permission.html" target="_blank">Parental/Guardian Authorization</a> form for each student                           and include it in the packet to be mailed.</li>
+      <li>Submit your completed forms to your country/region organizer. In the subject line of your email write: IMMC and your team's control number. For example: IMMC 2022000. IMMC will accept only Adobe PDF or a Photo Image of your contest forms. The forms will be submitted by country/region representative/organizer to <a href="mailto:forms@immchallenge.org">forms@immchallenge.org</a>. *Note: The attachment must be less than 17MB.<br />
+        <br />
+      Contest Forms                        must be received by IM<sup>2</sup>C no later than 5:00 pm EDT on Friday, May 13,                         2022.                         IM<sup>2</sup>C is not responsible for any papers received after that                         date.    </li>
+    </ol>
+    <p align="left"><strong>IM<sup>2</sup>C                         Results and Recognition</strong></p>
+    <ol>
+      <li>Judging will be completed in June,                           2022.                           The solutions will be recognized as Successful Participant, Honorable Mention, Meritorious,  or Outstanding. Advisors                           and teams will be notified of the results in June,                           2022 and they will be posted on the IM<sup>2</sup>C website.                           News releases will be prepared for local and national                           dissemination and there will be announcements in professional                           publications. </li>
+      <li>Outstanding teams will have their Solution                           Papers (or their solution abstracts) published online. Recognition                           information will also be sent to local newspapers and                           radio/television outlets.</li>
+    </ol>
+    <p>&nbsp;</p>
+  <!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
+</html>
