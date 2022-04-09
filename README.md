@@ -18,7 +18,12 @@ Repository for the last stage of IMMC (China): the oral defense of our thesis.
 
 ## II. Meeting Number
 
-| Thesis   |[IMMC International Periodical Meeting](https://meeting.tencent.com/dm/KN9nzq1NqMcU)|
+| Thesis   |[IMMC International Periodical Meeting - Tencent](https://meeting.tencent.com/dm/KN9nzq1NqMcU)|
 |----------|--------|
 | Password | 768821 |
 | Tencent Meeting Room No. | 785-3881-1903 |
+
+| Thesis   |[IMMC International Periodical Meeting - Zoom](https://us05web.zoom.us/j/86343647926?pwd=QVNBTUpqQnBkbXU0ZFI4Tmx1VnFOdz09)|
+|----------|--------|
+| Password | Y08d1q |
+| Zoom Meeting Room No. | 863 4364 7926 |
