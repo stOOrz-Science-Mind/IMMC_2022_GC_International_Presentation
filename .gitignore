@@ -882,3 +882,4 @@ dmypy.json
 cython_debug/
 
 *.mp4
+*.mp4.zip
