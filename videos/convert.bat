@@ -1,1 +1,0 @@
-for %%a in ("*.*") do ffmpeg -i "%%a" "newfiles\%%~na.mp4"
