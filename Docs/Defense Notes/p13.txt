@@ -1,0 +1,1 @@
+In this part we would calculate the velocity according to the density. The density defined in the model is as shown in the slide. The visibility range is taken as 4 because 4 is not too big or too small and is realistic, and it also decides the timestep (if taken as 4, the timestep can be 1/6 or 1/12 sec), reducing the complexity of simulation.
