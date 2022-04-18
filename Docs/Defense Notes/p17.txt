@@ -1,0 +1,1 @@
+When boarding, as the sequence is constant, we can calculate directly with the given queue.

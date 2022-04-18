@@ -1,0 +1,1 @@
+We use Greenshields speed-density linear model (Ref. 3 in essay) to evelop the relation between v and D. The formulae is shown in the slide.

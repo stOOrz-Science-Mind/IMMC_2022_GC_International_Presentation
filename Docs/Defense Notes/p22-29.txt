@@ -1,0 +1,23 @@
+P22
+We would delete seated passengers from the queue.
+
+P23
+We could get the total time combining those calculations together.
+
+P24
+The final total time is the maximum total time among all passengers.
+
+P25
+We introduced parallelity to describe how many of the aisle cells are occupied (and used). The higher the parallelity, the more efficient the system is, and the faster the strategy is. The formulae of parallelity is shown in the slide.
+
+P26
+ATS
+
+P27
+So we hope that passengers can maintain a realistic maximum speed until the passengers in the aisle begin stowing again. So we use parallelity as a factor of predicting efficiency.
+
+P28
+Mathematical deduction justified the optimality of all cells being occupied, and also justified our model. And there's another claim to appear in other aircrafts.
+
+P29
+This is the sketch map.
