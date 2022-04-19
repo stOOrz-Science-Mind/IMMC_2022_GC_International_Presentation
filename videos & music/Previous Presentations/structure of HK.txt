@@ -1,0 +1,10 @@
+- definition of important terms（表格形式，terms+explanation）
+- general assumptions（表格形式，Assumptions+justifications）
+- 接下来对于问题的拆解分成若干部分
+  - factors taken into consideration
+  - model 分部分介绍（伴有举例）
+  - 结果
+- 敏感度分析
+- 反思
+  - S&W
+  - Further developments
