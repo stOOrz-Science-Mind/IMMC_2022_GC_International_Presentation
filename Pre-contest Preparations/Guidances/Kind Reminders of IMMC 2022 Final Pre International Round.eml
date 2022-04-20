@@ -1,0 +1,996 @@
+Received: from mail-pf1-f178.google.com (unknown [209.85.210.178])
+	by mx70 (Coremail) with SMTP id J91pCgCXSh2dml5it1JXBQ--.49597S4;
+	Tue, 19 Apr 2022 19:19:13 +0800 (CST)
+Received: by mail-pf1-f178.google.com with SMTP id n22so8297950pfa.0
+        for <allan_pan_mathx123@163.com>; Tue, 19 Apr 2022 04:19:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=Z4JuXYG4y8kPeeu3DrepvtwLUMjGYsSMCfzG0B4s9WY=;
+        b=MjzbBSxVYxmU6VPj527t26iYr4KIBdwh3wMRz/Yt1zY5sfx+Ly+Sj4qX3MrvNkf4Yh
+         20UEJbdcx1Dxb4l1d/T40sjNBmSAZ3lir3AOij+/qL8JXXhTJGdDMyaWaAPLz0nWIJO9
+         ljaZjXQjO3uwUN4MCjiWX3l7QphgqqOkODzTPX6n5yR+Gurk5jrE1orWA/pngpofwQDF
+         e0MYvIMwlegWI5LkaxFO7hiYqmzW4oRC15TS+MIxj+o6vks5q/7txZZPmjsSQy2FZ0b2
+         ihYXAt9doj2FyttEQPP/xB1qNjtl4a7ukSExNe7nsenhkhLYsqzktJYwM4w7BRyMmlLi
+         BO7A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=Z4JuXYG4y8kPeeu3DrepvtwLUMjGYsSMCfzG0B4s9WY=;
+        b=CMKomHpCJgLp9dLgp9rVTdOUR6iU9CiDlSLxX21aaYipagEBtnzsgMIRlL29QcS7YD
+         EAZG3ylVKRrbBHY4k3dnBYW4GFzSYnufo2NAGlk+6D/6zgwCyaGjpkqAMwsT+B6Vu7pa
+         uLersA/CbGuGGo23ccgdFe0kH9TxxWFMdVepKl0icASsyoisMRXqBn9hcHbT0zg1XUlI
+         1G4NFJekD//3m+mxyjhCQG5i0/GA+2DMC58jfJQ3cAQhRk8v1niUqnaOTAq2WTnXjZTj
+         HbiugKpacR9rYnho1ugmje8HzWqDtvoJHurO2d2us3O4lZNNIx5UqoVfLvINDH4P/9uB
+         zSNg==
+X-Gm-Message-State: AOAM533dkl7Bh0ouS8a8AElmQeZeX++9XMSeYIZGXDw5vmV4hSvDBU2e
+	WsIrnYVChDdGM5rwk+dzEYcN0xnEsqIbQ7mj5TTSnPBX
+X-Google-Smtp-Source: ABdhPJz6uL2vAwtwKSBMzDiLKj8s97JsFgSR9mudbaAK5rp5pC6Ln7icRxI4fpUUvvFPSdR8aCiZ6tWow3cNKeVXgM8=
+X-Received: by 2002:a05:6a00:27a2:b0:4fa:e893:bb68 with SMTP id
+ bd34-20020a056a0027a200b004fae893bb68mr17269282pfb.82.1650367151764; Tue, 19
+ Apr 2022 04:19:11 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 19 Apr 2022 07:19:10 -0400
+MIME-Version: 1.0
+References: <CAMnk9BYmFnDZMPLWbGAJtaG7yCLBHoQbn1VZNXnKkmzid+ZcnA@mail.gmail.com>
+In-Reply-To: <CAMnk9BYmFnDZMPLWbGAJtaG7yCLBHoQbn1VZNXnKkmzid+ZcnA@mail.gmail.com>
+From: Esther Cheng <esther.immc@gmail.com>
+Date: Tue, 19 Apr 2022 07:19:10 -0400
+Message-ID: <CAMnk9BYXPc_1ibyJPBQ-_Wq3oVLNiUksWo621Vva9dbkL+_JyQ@mail.gmail.com>
+Subject: Kind Reminders of IMMC 2022 Final Pre International Round
+To: Allan Pan Mathx <allan_pan_mathx123@163.com>
+Content-Type: multipart/alternative; boundary="000000000000d47a6505dd000b21"
+X-CM-TRANSID:J91pCgCXSh2dml5it1JXBQ--.49597S4
+Authentication-Results: mx70; spf=pass smtp.mail=esther.immc@gmail.com
+	; dkim=pass header.i=@gmail.com
+X-Coremail-Antispam: 1Uf129KBjvJXoWxury7ur17CFWDXryxGF18uFg_yoW5Aw4UpF
+	W8tF4xJ3WDXa1kGayfAF4Iqr17Zrs5GFWUWr4Utw1Sqrs8AFWS9r1agr4qga45urZ7Jr42
+	qw4qvF1UCwn7JrDanT9S1TB71UUUU0JqnTZGkaVYY2UrUUUUjbIjqfuFe4nvWSU5nxnvy2
+	9KBjDUYxBIdaVFxhVjvjDU0xZFpf9x0zRzyx_UUUUU=
+
+--000000000000d47a6505dd000b21
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Team IMMC22768821,
+
+I am sending some kind reminders about the Final Pre to your team.
+
+1. Please find the tomorrow's testing Zoom meeting ID and Passcode
+below. Each team will have 5 minutes for the testing on the basis of
+first-come first-test. The testing items include: joining in, Audio, Video,
+and sharing screen.
+
+ZOOM trial for Greater China Round
+
+*ZOOM trial for International Round*
+
+Date & Time
+
+*12:00 noon-1:30 pm April 20th 2022*
+
+Date & Time
+
+*6:00 pm- 7=EF=BC=9A30 pm April 20th 2022 *
+
+Meeting ID
+
+868 3782 5646
+
+Meeting ID
+
+836 9075 4224
+
+Meeting Link
+
+https://bit.ly/2022FinalPre_GreaterChina
+
+Meeting Link
+
+https://bit.ly/2022FinalPre_Int
+
+Meeting password
+
+615972
+
+Meeting password
+
+821593
+
+2.  Please find the Presentation Order below. The team 1-13 will present on
+the 23 April Morning. And the team 14-26 will present on the 23 April
+Afternoon. Team 1-13 please join the Zoom meeting at 8:30 am and team 14-24
+need to join before 2:15 pm.
+Control Number =E6=A0=A1=E5=90=8D(=E4=B8=AD=E6=96=87) Presentation
+ Order
+School Name(English)
+IMMC22237723 =E4=B8=8A=E6=B5=B7=E5=B8=82=E4=B8=96=E7=95=8C=E5=A4=96=E5=9B=
+=BD=E8=AF=AD=E4=B8=AD=E5=AD=A6 1 Shanghai World Foreign Language Academy
+IMMC22689589 =E6=8B=94=E8=90=83=E5=A5=B3=E6=9B=B8=E9=99=A2 2 Diocesan Girls=
+' School
+IMMC22468942 =E4=B8=8A=E6=B5=B7=E4=B8=AD=E5=AD=A6=E5=9B=BD=E9=99=85=E9=83=
+=A8 3 Shanghai High School International Division
+IMMC22324267 Shanghai American School 4 Shanghai American School
+IMMC22366296 =E6=BE=B3=E9=96=80=E6=BF=A0=E6=B1=9F=E4=B8=AD=E5=AD=B8=E9=99=
+=84=E5=B1=AC=E8=8B=B1=E6=89=8D=E5=AD=B8=E6=A0=A1 5 Premier School Affiliate=
+d to Hou Kong
+IMMC22772076 =E6=B5=99=E6=B1=9F=E7=9C=81=E6=9D=AD=E5=B7=9E=E7=AC=AC=E4=BA=
+=8C=E4=B8=AD=E5=AD=A6 6 Hangzhou No.2 High School Of Zhejiang Province
+IMMC22405217 =E4=B8=8A=E6=B5=B7=E6=B0=91=E5=8A=9E=E5=B9=B3=E5=92=8C=E5=AD=
+=A6=E6=A0=A1 7 Shanghai Pinghe School
+IMMC22168571 =E5=8C=97=E4=BA=AC=E4=B8=AD=E5=AD=A6 8 Beijing Academy
+IMMC22586774 =E5=8C=97=E4=BA=AC=E5=B8=82=E5=8D=81=E4=B8=80=E5=AD=A6=E6=A0=
+=A1 9 Beijing National Day School
+IMMC22560894 =E6=BE=B3=E9=96=80=E6=B5=B8=E4=BF=A1=E4=B8=AD=E5=AD=B8 10 Maca=
+u Baptist College
+IMMC22768821 =E4=B8=8A=E6=B5=B7=E5=B8=82=E5=AE=9E=E9=AA=8C=E5=AD=A6=E6=A0=
+=A1 11 Shanghai Experimental School
+IMMC22733021 =E5=8F=B0=E5=8C=97=E5=B8=82=E8=A1=9B=E7=90=86=E5=A5=B3=E4=B8=
+=AD 12 Taipei Wesley Girls High School
+IMMC22178515 =E6=BE=B3=E9=96=80=E5=8B=9E=E6=A0=A1=E4=B8=AD=E5=AD=B8 13 Lou =
+Hau High School
+IMMC22584842 =E4=B8=87=E7=A7=91=E6=A2=85=E6=B2=99=E4=B9=A6=E9=99=A2 14 Vank=
+e Meisha Academy
+IMMC22494804 =E4=B8=8A=E6=B5=B7=E5=B8=82=E5=BB=BA=E5=B9=B3=E4=B8=AD=E5=AD=
+=A6 15 Shanghai Jianping High School
+IMMC22817341 =E8=81=96=E4=BF=9D=E7=BE=85=E7=94=B7=E5=A5=B3=E4=B8=AD=E5=AD=
+=B8 16 St. Paul's Co-educational College
+IMMC22102684 La Salle College 17 La Salle College
+IMMC22396298 =E5=9F=B9=E5=83=91=E6=9B=B8=E9=99=A2 18 PUI KIU COLLEGE
+IMMC22963684 =E6=9D=AD=E5=B7=9E=E5=B8=82=E6=96=87=E6=B5=B7=E5=AE=9E=E9=AA=
+=8C=E5=AD=A6=E6=A0=A1 19 Hangzhou wenhai experimental school
+IMMC22256878 =E4=B8=AD=E5=B1=B1=E5=A5=B3=E9=AB=98 20 Taipei Municipal Zhong=
+shan Girls High School
+IMMC22757108 =E6=B5=99=E6=B1=9F=E7=9C=81=E6=9D=AD=E5=B7=9E=E7=AC=AC=E4=B8=
+=83=E4=B8=AD=E5=AD=A6 21 ZHEJIANG HANGZHOU NO. 7 HIGH SCHOOL
+IMMC22892824 =E5=98=89=E8=AB=BE=E6=92=92=E8=81=96=E5=BF=83=E8=8B=B1=E6=96=
+=87=E4=B8=AD=E5=AD=B8 22 Sacred Heart Canossian College
+IMMC22154209 =E8=A5=BF=E5=AE=89=E4=BA=A4=E9=80=9A=E5=A4=A7=E5=AD=A6=E9=99=
+=84=E5=B1=9E=E4=B8=AD=E5=AD=A6 23 Xi'an Jiaotong University Affiliate
+IMMC22766850 =E8=BE=BD=E5=AE=81=E7=9C=81=E5=AE=9E=E9=AA=8C=E4=B8=AD=E5=AD=
+=A6 24 Liaoning Province Shiyan High School
+IMMC22616754 =E6=B7=B1=E5=9C=B3=E5=9B=BD=E9=99=85=E4=BA=A4=E6=B5=81=E5=AD=
+=A6=E9=99=A2 25 Shenzhen College of International Education
+IMMC22590624 =E5=8D=97=E9=98=B3=E5=B8=82=E7=AC=AC=E4=BA=8C=E4=B8=AD=E5=AD=
+=A6=E6=A0=A1 26 Nanyang No.2 Middle School
+
+3.  The presentation slides (PPT) need to send to the secretariat of IMMC
+before 12:00 noon April 21st 2022 at immc_sec@126.com. Please ignore this
+item if you sent it already.
+
+Please contact us if you have any questions.
+
+--=20
+
+Best Regards,
+
+Secretariat of IMMC Committee =E2=80=93 Zhonghua
+
+--000000000000d47a6505dd000b21
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"lt=
+r">Dear Team IMMC22768821,<div><br></div><div>I am sending=C2=A0some kind r=
+eminders about the Final Pre to your team.</div><div><br></div><div>1. Plea=
+se find the tomorrow&#39;s testing Zoom meeting ID and Passcode below.=C2=
+=A0Each team will have 5 minutes for the testing on the basis of first-come=
+ first-test. The testing items include: joining in, Audio, Video, and shari=
+ng screen. =C2=A0</div><div><br></div><div><table border=3D"1" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"margin-left:38.85pt;border-collapse:colla=
+pse;border:none"><tbody><tr><td width=3D"279" colspan=3D"2" valign=3D"top" =
+style=3D"width:209pt;border:1pt solid windowtext;background:rgb(55,149,175)=
+;padding:0in 5.4pt"><p style=3D"margin:6pt 0in;text-indent:0in;text-align:j=
+ustify;font-size:10.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US=
+" style=3D"font-size:11pt;font-family:&quot;Times New Roman&quot;,serif"><s=
+pan style=3D"color:black">ZOOM trial for Greater China
+  Round</span></span></p>
+  </td>
+  <td width=3D"274" colspan=3D"2" valign=3D"top" style=3D"width:205.5pt;bor=
+der-top:1pt solid windowtext;border-right:1pt solid windowtext;border-botto=
+m:1pt solid windowtext;border-left:none;background:rgb(55,149,175);padding:=
+0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif"><b><font color=3D"#f=
+fff00">ZOOM trial for International Round</font></b></span><span lang=3D"EN=
+-US" style=3D"font-size:11pt;font-family:&quot;Times New Roman&quot;,serif"=
+></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D"127" valign=3D"top" style=3D"width:95.6pt;border-right:1pt s=
+olid windowtext;border-bottom:1pt solid windowtext;border-left:1pt solid wi=
+ndowtext;border-top:none;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Date &am=
+p; Time</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&quo=
+t;Times New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-fa=
+mily:&quot;Times New Roman&quot;,serif"><b>12:00 noon-1:30 pm April 20th 20=
+22</b></span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&quot=
+;Times New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"123" valign=3D"top" style=3D"width:92.1pt;border-top:none;bo=
+rder-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid wi=
+ndowtext;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Date &am=
+p; Time</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&quo=
+t;Times New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-fa=
+mily:&quot;Times New Roman&quot;,serif"><b>6:00 pm- 7=EF=BC=9A30 pm April 2=
+0th 2022  </b></span><span lang=3D"EN-US" style=3D"font-size:11pt;font-fami=
+ly:&quot;Times New Roman&quot;,serif"></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D"127" valign=3D"top" style=3D"width:95.6pt;border-right:1pt s=
+olid windowtext;border-bottom:1pt solid windowtext;border-left:1pt solid wi=
+ndowtext;border-top:none;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Meeting =
+ID</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&quot;Tim=
+es New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-fa=
+mily:&quot;Times New Roman&quot;,serif">868
+  3782 5646</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:=
+&quot;Times New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"123" valign=3D"top" style=3D"width:92.1pt;border-top:none;bo=
+rder-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid wi=
+ndowtext;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Meeting =
+ID</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&quot;Tim=
+es New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-fa=
+mily:&quot;Times New Roman&quot;,serif">836
+  9075 4224</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:=
+&quot;Times New Roman&quot;,serif"></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D"127" valign=3D"top" style=3D"width:95.6pt;border-right:1pt s=
+olid windowtext;border-bottom:1pt solid windowtext;border-left:1pt solid wi=
+ndowtext;border-top:none;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Meeting =
+Link</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&quot;T=
+imes New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:9pt;font-family:&quot;Times New Roman&quot;,serif"><a href=3D"https://bi=
+t.ly/2022FinalPre_GreaterChina" target=3D"_blank">https://bit.ly/2022FinalP=
+re_GreaterChina</a></span><span lang=3D"EN-US" style=3D"font-family:&quot;T=
+imes New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"123" valign=3D"top" style=3D"width:92.1pt;border-top:none;bo=
+rder-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid wi=
+ndowtext;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Meeting =
+Link</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&quot;T=
+imes New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:9pt;font-family:&quot;Times New Roman&quot;,serif"><a href=3D"https://bi=
+t.ly/2022FinalPre_Int" target=3D"_blank">https://bit.ly/2022FinalPre_Int</a=
+></span><span lang=3D"EN-US" style=3D"font-family:&quot;Times New Roman&quo=
+t;,serif"></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D"127" valign=3D"top" style=3D"width:95.6pt;border-right:1pt s=
+olid windowtext;border-bottom:1pt solid windowtext;border-left:1pt solid wi=
+ndowtext;border-top:none;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Meeting
+  password</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&=
+quot;Times New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-fa=
+mily:&quot;Times New Roman&quot;,serif">615972</span><span lang=3D"EN-US" s=
+tyle=3D"font-size:11pt;font-family:&quot;Times New Roman&quot;,serif"></spa=
+n></p>
+  </td>
+  <td width=3D"123" valign=3D"top" style=3D"width:92.1pt;border-top:none;bo=
+rder-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid wi=
+ndowtext;background:rgb(182,221,232);padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-si=
+ze:11pt;font-family:&quot;Times New Roman&quot;,serif;color:black">Meeting
+  password</span><span lang=3D"EN-US" style=3D"font-size:11pt;font-family:&=
+quot;Times New Roman&quot;,serif"></span></p>
+  </td>
+  <td width=3D"151" valign=3D"top" style=3D"width:113.4pt;border-top:none;b=
+order-left:none;border-bottom:1pt solid windowtext;border-right:1pt solid w=
+indowtext;padding:0in 5.4pt">
+  <p style=3D"margin:6pt 0in;text-indent:0in;text-align:justify;font-size:1=
+0.5pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-fa=
+mily:&quot;Times New Roman&quot;,serif">821593</span><span lang=3D"EN-US" s=
+tyle=3D"font-size:11pt;font-family:&quot;Times New Roman&quot;,serif"></spa=
+n></p>
+  </td>
+ </tr>
+</tbody></table><br></div><div>2.=C2=A0 Please find the Presentation Order =
+below. The team 1-13 will present on the 23 April Morning. And the team 14-=
+26 will present on the 23 April Afternoon. Team 1-13 please join the Zoom m=
+eeting at 8:30 am and team 14-24 need to join before 2:15 pm.</div><div><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"731" style=3D=
+"border-collapse:collapse;width:549pt">
+
+ <colgroup><col width=3D"110" style=3D"width:83pt">
+ <col width=3D"188" style=3D"width:141pt">
+ <col width=3D"92" style=3D"width:69pt">
+ <col width=3D"341" style=3D"width:256pt">
+ </colgroup><tbody><tr height=3D"77" style=3D"height:58pt">
+  <td height=3D"77" class=3D"gmail-xl65" width=3D"110" style=3D"height:58pt=
+;width:83pt;border:0.5pt solid windowtext;padding-top:1px;padding-right:1px=
+;padding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-a=
+lign:middle;white-space:nowrap">Control
+  Number</td>
+  <td class=3D"gmail-xl65" width=3D"188" style=3D"border-left:none;width:14=
+1pt;border-top:0.5pt solid windowtext;border-right:0.5pt solid windowtext;b=
+order-bottom:0.5pt solid windowtext;padding-top:1px;padding-right:1px;paddi=
+ng-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align:m=
+iddle;white-space:nowrap">=E6=A0=A1=E5=90=8D(=E4=B8=AD=E6=96=87)</td>
+  <td class=3D"gmail-xl66" width=3D"92" style=3D"border-left:none;width:69p=
+t;font-family:Calibri,sans-serif;border-top:0.5pt solid windowtext;border-r=
+ight:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-to=
+p:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;vertica=
+l-align:middle">Presentation<br>
+    =C2=A0Order<br>
+    </td>
+  <td class=3D"gmail-xl65" width=3D"341" style=3D"border-left:none;width:25=
+6pt;border-top:0.5pt solid windowtext;border-right:0.5pt solid windowtext;b=
+order-bottom:0.5pt solid windowtext;padding-top:1px;padding-right:1px;paddi=
+ng-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align:m=
+iddle;white-space:nowrap">School
+  Name(English)</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22237723</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E4=B8=8A=E6=B5=B7=
+=E5=B8=82=E4=B8=96=E7=95=8C=E5=A4=96=E5=9B=BD=E8=AF=AD=E4=B8=AD=E5=AD=A6</t=
+d>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">1<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shanghai World
+  Foreign Language Academy</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22689589</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=8B=94=E8=90=83=
+=E5=A5=B3=E6=9B=B8=E9=99=A2</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">2<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Diocesan Girls&#39=
+;
+  School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22468942</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E4=B8=8A=E6=B5=B7=
+=E4=B8=AD=E5=AD=A6=E5=9B=BD=E9=99=85=E9=83=A8</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">3<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shanghai High Scho=
+ol
+  International Division</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22324267</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shanghai American
+  School</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">4<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shanghai American
+  School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22366296</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=BE=B3=E9=96=80=
+=E6=BF=A0=E6=B1=9F=E4=B8=AD=E5=AD=B8=E9=99=84=E5=B1=AC=E8=8B=B1=E6=89=8D=E5=
+=AD=B8=E6=A0=A1</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">5<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Premier School
+  Affiliated to Hou Kong</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22772076</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=B5=99=E6=B1=9F=
+=E7=9C=81=E6=9D=AD=E5=B7=9E=E7=AC=AC=E4=BA=8C=E4=B8=AD=E5=AD=A6</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">6<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Hangzhou No.2 High
+  School Of Zhejiang Province</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22405217</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E4=B8=8A=E6=B5=B7=
+=E6=B0=91=E5=8A=9E=E5=B9=B3=E5=92=8C=E5=AD=A6=E6=A0=A1</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">7<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shanghai Pinghe
+  School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22168571</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E5=8C=97=E4=BA=AC=
+=E4=B8=AD=E5=AD=A6</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">8<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Beijing Academy</t=
+d>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22586774</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E5=8C=97=E4=BA=AC=
+=E5=B8=82=E5=8D=81=E4=B8=80=E5=AD=A6=E6=A0=A1</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">9<=
+/td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Beijing National D=
+ay
+  School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22560894</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=BE=B3=E9=96=80=
+=E6=B5=B8=E4=BF=A1=E4=B8=AD=E5=AD=B8</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">10=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Macau Baptist Coll=
+ege</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22768821</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E4=B8=8A=E6=B5=B7=
+=E5=B8=82=E5=AE=9E=E9=AA=8C=E5=AD=A6=E6=A0=A1</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">11=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shanghai Experimen=
+tal
+  School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22733021</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E5=8F=B0=E5=8C=97=
+=E5=B8=82=E8=A1=9B=E7=90=86=E5=A5=B3=E4=B8=AD</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">12=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Taipei Wesley Girl=
+s
+  High School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22178515</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=BE=B3=E9=96=80=
+=E5=8B=9E=E6=A0=A1=E4=B8=AD=E5=AD=B8</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">13=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Lou Hau High Schoo=
+l</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22584842</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E4=B8=87=E7=A7=91=
+=E6=A2=85=E6=B2=99=E4=B9=A6=E9=99=A2</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">14=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Vanke Meisha Acade=
+my</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22494804</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E4=B8=8A=E6=B5=B7=
+=E5=B8=82=E5=BB=BA=E5=B9=B3=E4=B8=AD=E5=AD=A6</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">15=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shanghai Jianping
+  High School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22817341</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E8=81=96=E4=BF=9D=
+=E7=BE=85=E7=94=B7=E5=A5=B3=E4=B8=AD=E5=AD=B8</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">16=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">St. Paul&#39;s
+  Co-educational College</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22102684</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">La Salle College</=
+td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">17=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">La Salle College</=
+td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22396298</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E5=9F=B9=E5=83=91=
+=E6=9B=B8=E9=99=A2</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">18=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">PUI KIU COLLEGE</t=
+d>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22963684</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=9D=AD=E5=B7=9E=
+=E5=B8=82=E6=96=87=E6=B5=B7=E5=AE=9E=E9=AA=8C=E5=AD=A6=E6=A0=A1</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">19=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Hangzhou wenhai
+  experimental school</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22256878</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E4=B8=AD=E5=B1=B1=
+=E5=A5=B3=E9=AB=98</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">20=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Taipei Municipal
+  Zhongshan Girls High School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22757108</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=B5=99=E6=B1=9F=
+=E7=9C=81=E6=9D=AD=E5=B7=9E=E7=AC=AC=E4=B8=83=E4=B8=AD=E5=AD=A6</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">21=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">ZHEJIANG HANGZHOU =
+NO.
+  7 HIGH SCHOOL</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22892824</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E5=98=89=E8=AB=BE=
+=E6=92=92=E8=81=96=E5=BF=83=E8=8B=B1=E6=96=87=E4=B8=AD=E5=AD=B8</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">22=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Sacred Heart
+  Canossian College</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22154209</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E8=A5=BF=E5=AE=89=
+=E4=BA=A4=E9=80=9A=E5=A4=A7=E5=AD=A6=E9=99=84=E5=B1=9E=E4=B8=AD=E5=AD=A6</t=
+d>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">23=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Xi&#39;an Jiaotong
+  University Affiliate</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22766850</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E8=BE=BD=E5=AE=81=
+=E7=9C=81=E5=AE=9E=E9=AA=8C=E4=B8=AD=E5=AD=A6</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">24=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Liaoning Province
+  Shiyan High School</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22616754</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E6=B7=B1=E5=9C=B3=
+=E5=9B=BD=E9=99=85=E4=BA=A4=E6=B5=81=E5=AD=A6=E9=99=A2</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">25=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Shenzhen College o=
+f
+  International Education</td>
+ </tr>
+ <tr height=3D"19" style=3D"height:14.5pt">
+  <td height=3D"19" class=3D"gmail-xl65" style=3D"height:14.5pt;border-top:=
+none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowte=
+xt;border-left:0.5pt solid windowtext;padding-top:1px;padding-right:1px;pad=
+ding-left:1px;color:black;font-size:11pt;font-family:Calibri;vertical-align=
+:middle;white-space:nowrap">IMMC22590624</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">=E5=8D=97=E9=98=B3=
+=E5=B8=82=E7=AC=AC=E4=BA=8C=E4=B8=AD=E5=AD=A6=E6=A0=A1</td>
+  <td class=3D"gmail-xl65" align=3D"right" style=3D"border-top:none;border-=
+left:none;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid win=
+dowtext;padding-top:1px;padding-right:1px;padding-left:1px;color:black;font=
+-size:11pt;font-family:Calibri;vertical-align:middle;white-space:nowrap">26=
+</td>
+  <td class=3D"gmail-xl65" style=3D"border-top:none;border-left:none;border=
+-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;padding-=
+top:1px;padding-right:1px;padding-left:1px;color:black;font-size:11pt;font-=
+family:Calibri;vertical-align:middle;white-space:nowrap">Nanyang No.2 Middl=
+e
+  School</td>
+ </tr>
+
+</tbody></table></div><div><br clear=3D"all"><div>3.=C2=A0 The presentation=
+ slides (PPT) need to send to the secretariat of IMMC before 12:00 noon Apr=
+il 21st 2022 at <a href=3D"mailto:immc_sec@126.com" target=3D"_blank">immc_=
+sec@126.com</a>. Please ignore this item if you sent it already.</div><div>=
+<br></div><div>Please contact us if you have any questions.</div><div><br><=
+/div>-- <br><div dir=3D"ltr"><div dir=3D"ltr">
+
+<p style=3D"margin:0px;text-align:justify;line-height:115%"><span style=3D"=
+margin:0px"><font color=3D"#000000" face=3D"arial, sans-serif">Best Regards=
+,<br></font></span></p><p style=3D"margin:0px;text-align:justify;line-heigh=
+t:115%"><span style=3D"color:rgb(0,0,0);text-align:start"><font face=3D"ari=
+al, sans-serif">Secretariat of IMMC Committee =E2=80=93 Zhonghua</font></sp=
+an><br></p>
+
+<span style=3D"margin:0px;line-height:107%"><font color=3D"#000000"><font f=
+ace=3D"arial,helvetica,sans-serif"><u></u></font></font></span></div></div>=
+</div></div>
+</div><div><br></div><div dir=3D"ltr" class=3D"gmail_signature"></div></div=
+></div>
+
+--000000000000d47a6505dd000b21--
