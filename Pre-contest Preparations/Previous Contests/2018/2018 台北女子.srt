@@ -1,0 +1,684 @@
+1
+00:00:08,359 --> 00:00:14,307
+we now have the the team from the top a
+
+2
+00:00:11,759 --> 00:00:17,340
+municipal Zhongshan girls high school in
+
+3
+00:00:14,308 --> 00:00:19,828
+taiwan who achieved also the meritorious
+
+4
+00:00:17,339 --> 00:00:24,079
+award achievement award so can we have
+
+5
+00:00:19,829 --> 00:00:24,079
+that the Taiwan team please
+
+6
+00:00:39,130 --> 00:00:54,699
+[Music]
+
+7
+00:00:57,579 --> 00:01:00,648
+[Music]
+
+8
+00:01:02,950 --> 00:01:06,640
+yeah yeah
+
+9
+00:01:06,930 --> 00:01:12,109
+[Music]
+
+10
+00:01:08,569 --> 00:01:12,109
+yo Mike
+
+11
+00:01:12,650 --> 00:01:18,299
+[Music]
+
+12
+00:01:16,269 --> 00:01:18,297
+Oh
+
+13
+00:01:20,359 --> 00:01:25,028
+[Music]
+
+14
+00:01:28,549 --> 00:01:48,549
+[Music]
+
+15
+00:02:02,849 --> 00:02:13,339
+[Music]
+
+16
+00:02:16,289 --> 00:02:20,308
+[Music]
+
+17
+00:02:18,229 --> 00:02:21,758
+don't shoot
+
+18
+00:02:20,310 --> 00:02:24,540
+[Music]
+
+19
+00:02:21,759 --> 00:02:24,538
+Chinchin
+
+20
+00:02:28,870 --> 00:02:33,788
+[Music]
+
+21
+00:02:41,110 --> 00:02:46,129
+[Music]
+
+22
+00:02:43,289 --> 00:02:46,128
+well
+
+23
+00:02:51,770 --> 00:02:54,818
+[Music]
+
+24
+00:03:00,959 --> 00:03:03,950
+the Venus
+
+25
+00:03:14,789 --> 00:03:20,069
+[Music]
+
+26
+00:03:17,069 --> 00:03:20,069
+boo
+
+27
+00:03:20,930 --> 00:03:27,640
+Oh son Jack
+
+28
+00:03:24,610 --> 00:03:27,639
+well I
+
+29
+00:03:42,060 --> 00:03:45,089
+[Music]
+
+30
+00:03:47,960 --> 00:03:52,929
+[Music]
+
+31
+00:04:08,400 --> 00:04:23,288
+we're from typing the new supporting
+
+32
+00:04:11,139 --> 00:04:26,019
+science this is the introduction and the
+
+33
+00:04:23,288 --> 00:04:28,209
+setting where that data from Taiwan we
+
+34
+00:04:26,019 --> 00:04:35,378
+considered objective factors and
+
+35
+00:04:28,209 --> 00:04:38,138
+personal preferences and I divided our
+
+36
+00:04:35,379 --> 00:04:40,869
+report into a three part first we find
+
+37
+00:04:38,139 --> 00:04:42,720
+the mortality rate second we took a lot
+
+38
+00:04:40,870 --> 00:04:46,270
+of foreign factors into consideration
+
+39
+00:04:42,720 --> 00:04:49,239
+that we can establish our model from
+
+40
+00:04:46,269 --> 00:04:56,099
+five different factors alas we mark a
+
+41
+00:04:49,240 --> 00:04:59,229
+simulation to make it clear question one
+
+42
+00:04:56,100 --> 00:05:04,689
+develop a model that uses mortality to
+
+43
+00:04:59,228 --> 00:05:07,178
+measure the quality of a hospital we
+
+44
+00:05:04,689 --> 00:05:10,059
+take advantage of these three data to
+
+45
+00:05:07,180 --> 00:05:14,050
+infer an expanded total mortality rate
+
+46
+00:05:10,060 --> 00:05:16,388
+after medical treatment because their
+
+47
+00:05:14,050 --> 00:05:21,130
+mortality can be totally different to
+
+48
+00:05:16,389 --> 00:05:25,270
+two adults variants we calculate all the
+
+49
+00:05:21,129 --> 00:05:28,029
+data for a to gender instead of C and we
+
+50
+00:05:25,269 --> 00:05:32,198
+simply these three factors on the
+
+51
+00:05:28,029 --> 00:05:41,439
+PowerPoint this is a demonstration of
+
+52
+00:05:32,199 --> 00:05:46,659
+our calculation F is female M is male we
+
+53
+00:05:41,439 --> 00:05:49,528
+try to we try to find a desktop after
+
+54
+00:05:46,658 --> 00:05:53,558
+medical treatment but those that are
+
+55
+00:05:49,529 --> 00:05:56,048
+confidential in Taiwan's so we automated
+
+56
+00:05:53,560 --> 00:05:58,529
+and that's what you can see on these two
+
+57
+00:05:56,050 --> 00:05:58,530
+pages
+
+58
+00:06:05,168 --> 00:06:12,059
+we just divided the number of patients
+
+59
+00:06:08,499 --> 00:06:15,638
+of emergency and outpatient clinic pilot
+
+60
+00:06:12,060 --> 00:06:18,399
+justo after medical treatment and we can
+
+61
+00:06:15,639 --> 00:06:25,449
+get hotel-motel arrays after medical
+
+62
+00:06:18,399 --> 00:06:30,399
+treatment we take the Delta of 2016 16
+
+63
+00:06:25,449 --> 00:06:33,099
+for example in this chart e equals to P
+
+64
+00:06:30,399 --> 00:06:36,488
+times R so it's clear to see how we
+
+65
+00:06:33,098 --> 00:06:41,348
+infer in the total mortality rate after
+
+66
+00:06:36,490 --> 00:06:45,249
+medical treatment after our calculation
+
+67
+00:06:41,348 --> 00:06:50,197
+oh no after our calculation we can get
+
+68
+00:06:45,250 --> 00:06:52,299
+em for the to gender we can see Donna
+
+69
+00:06:50,199 --> 00:06:55,449
+and further to gender normal
+
+70
+00:06:52,300 --> 00:06:57,939
+distribution we divide the results into
+
+71
+00:06:55,449 --> 00:07:04,109
+a six intervals instead of mortality
+
+72
+00:06:57,939 --> 00:07:10,869
+mortality scores this is females
+
+73
+00:07:04,110 --> 00:07:16,990
+this is nails we conclude them in this
+
+74
+00:07:10,870 --> 00:07:19,508
+chart the second question is about
+
+75
+00:07:16,990 --> 00:07:24,278
+measuring the quality of hospitals based
+
+76
+00:07:19,509 --> 00:07:25,989
+on more factors we found information
+
+77
+00:07:24,278 --> 00:07:29,768
+about the reason why people choose
+
+78
+00:07:25,990 --> 00:07:33,398
+hospitals then we chose for these
+
+79
+00:07:29,769 --> 00:07:39,188
+factors which is more objective to
+
+80
+00:07:33,399 --> 00:07:41,469
+create our model the first one is the
+
+81
+00:07:39,189 --> 00:07:43,589
+doctor score we found information about
+
+82
+00:07:41,468 --> 00:07:47,317
+top doctors from Businessweek magazine
+
+83
+00:07:43,588 --> 00:07:50,738
+we calculate the number of we calculate
+
+84
+00:07:47,319 --> 00:07:53,490
+a number of each division of top doctors
+
+85
+00:07:50,740 --> 00:07:57,398
+in each division of every hospital and
+
+86
+00:07:53,490 --> 00:07:59,469
+standardized M as X and transform X to a
+
+87
+00:07:57,399 --> 00:08:04,149
+distribution from one to six point nine
+
+88
+00:07:59,468 --> 00:08:06,218
+ninety a linear function to get why use
+
+89
+00:08:04,149 --> 00:08:10,538
+integral functions together final
+
+90
+00:08:06,218 --> 00:08:13,567
+doctoral score and take cardiology of
+
+91
+00:08:10,538 --> 00:08:17,179
+hospital one for example use the wave
+
+92
+00:08:13,569 --> 00:08:22,340
+above we can even get two points and two
+
+93
+00:08:17,180 --> 00:08:26,330
+is the is the dr. score of cardiology of
+
+94
+00:08:22,339 --> 00:08:29,079
+hospital one the next one is the
+
+95
+00:08:26,329 --> 00:08:31,968
+hospital score we measure the size and
+
+96
+00:08:29,079 --> 00:08:35,949
+resources of hospitals by the number of
+
+97
+00:08:31,970 --> 00:08:39,500
+pets referring to the information of
+
+98
+00:08:35,950 --> 00:08:43,339
+hospital evaluation we divided into six
+
+99
+00:08:39,500 --> 00:08:45,919
+intervals the third one is the
+
+100
+00:08:43,339 --> 00:08:48,079
+recommendation score we divided into two
+
+101
+00:08:45,919 --> 00:08:50,829
+parts if the patient received
+
+102
+00:08:48,080 --> 00:08:56,449
+recommendation and get one point if not
+
+103
+00:08:50,830 --> 00:08:59,359
+get zero the last one is the traffic
+
+104
+00:08:56,450 --> 00:09:01,940
+score it is matter about driving time to
+
+105
+00:08:59,360 --> 00:09:06,499
+the hospital last driving time implies
+
+106
+00:09:01,940 --> 00:09:08,869
+higher Travis score and last alderman
+
+107
+00:09:06,500 --> 00:09:11,179
+tilt his score from cousin one now we
+
+108
+00:09:08,870 --> 00:09:17,029
+can get a final final score of each
+
+109
+00:09:11,179 --> 00:09:25,929
+hospital to get the final score we need
+
+110
+00:09:17,028 --> 00:09:28,938
+to assemble a number for each bottle and
+
+111
+00:09:25,929 --> 00:09:31,219
+to do that would write a questionnaire
+
+112
+00:09:28,940 --> 00:09:35,630
+for patients to survey how important is
+
+113
+00:09:31,220 --> 00:09:39,109
+extractor each row represents each row
+
+114
+00:09:35,629 --> 00:09:40,999
+represents of factor we considered which
+
+115
+00:09:39,110 --> 00:09:44,419
+we just mentioned in the previous part
+
+116
+00:09:41,000 --> 00:09:48,950
+and each column represents a level of
+
+117
+00:09:44,419 --> 00:09:50,837
+importance and we use zero and one to
+
+118
+00:09:48,950 --> 00:09:55,310
+stand for whether the patient check or
+
+119
+00:09:50,839 --> 00:09:59,060
+not in this example the patient I care
+
+120
+00:09:55,309 --> 00:10:05,568
+about the equipment and care a lot about
+
+121
+00:09:59,059 --> 00:10:09,199
+doctors expertise and mrs. R factor
+
+122
+00:10:05,570 --> 00:10:11,300
+importance metrics we calculate the
+
+123
+00:10:09,200 --> 00:10:14,810
+factor important score by multiplying
+
+124
+00:10:11,299 --> 00:10:18,648
+the score each level of the Cent's the
+
+125
+00:10:14,809 --> 00:10:21,108
+sum of each row is one because each
+
+126
+00:10:18,649 --> 00:10:23,748
+because patients should choose only one
+
+127
+00:10:21,110 --> 00:10:26,720
+option in each row and this is an
+
+128
+00:10:23,750 --> 00:10:30,129
+example of the factor importance for
+
+129
+00:10:26,720 --> 00:10:30,130
+apparently calculated
+
+130
+00:10:31,629 --> 00:10:37,398
+then we can gather the function of each
+
+131
+00:10:34,549 --> 00:10:43,908
+factor analyst and a sum up dot
+
+132
+00:10:37,399 --> 00:10:46,309
+revolutionist one after we got the
+
+133
+00:10:43,909 --> 00:10:48,439
+propulsion of each factor I thought it
+
+134
+00:10:46,309 --> 00:10:52,669
+calculate the final score for each
+
+135
+00:10:48,440 --> 00:10:56,180
+Hospital and each row represents a
+
+136
+00:10:52,669 --> 00:10:58,548
+hospital and each ball one represents
+
+137
+00:10:56,179 --> 00:11:03,828
+the score of different factors in each
+
+138
+00:10:58,549 --> 00:11:07,398
+Hospital because III thus the score AI
+
+139
+00:11:03,828 --> 00:11:10,007
+three is different from the others so we
+
+140
+00:11:07,399 --> 00:11:13,519
+use our relation matrix to transform
+
+141
+00:11:10,009 --> 00:11:17,659
+auto score into the same level and after
+
+142
+00:11:13,519 --> 00:11:24,380
+that we can get the final spot so now as
+
+143
+00:11:17,659 --> 00:11:26,869
+per our case Malaysian sorry this is mr.
+
+144
+00:11:24,379 --> 00:11:29,327
+hello and he has heart disease he wants
+
+145
+00:11:26,870 --> 00:11:31,969
+to go to see the cardiologist but how
+
+146
+00:11:29,328 --> 00:11:35,198
+can you find hospitals which fit tip so
+
+147
+00:11:31,970 --> 00:11:38,660
+we will give him our user-friendly memo
+
+148
+00:11:35,198 --> 00:11:41,239
+okay but how can he use it
+
+149
+00:11:38,659 --> 00:11:45,309
+step one has to write down his name and
+
+150
+00:11:41,240 --> 00:11:48,230
+his gender the division he wants to go
+
+151
+00:11:45,309 --> 00:11:52,549
+the address and check the form whether
+
+152
+00:11:48,230 --> 00:11:54,709
+it has received the recommendation the
+
+153
+00:11:52,549 --> 00:11:58,909
+most important part is filled in the
+
+154
+00:11:54,708 --> 00:12:02,179
+fourth we have five factors and five
+
+155
+00:11:58,909 --> 00:12:04,939
+fours on our words and with one as to
+
+156
+00:12:02,179 --> 00:12:07,009
+not quite at all and with five o'clock
+
+157
+00:12:04,940 --> 00:12:10,670
+the higher the score is the greater the
+
+158
+00:12:07,009 --> 00:12:14,239
+degree is and each row is required so I
+
+159
+00:12:10,669 --> 00:12:16,697
+can finish the formed and she just click
+
+160
+00:12:14,240 --> 00:12:18,919
+the Android and the nor information that
+
+161
+00:12:16,698 --> 00:12:21,827
+he can get our invoice with perhaps
+
+162
+00:12:18,919 --> 00:12:26,688
+became three to five hospitals for
+
+163
+00:12:21,828 --> 00:12:29,808
+reference and advantage of our memo is
+
+164
+00:12:26,688 --> 00:12:32,359
+that it's easy handy and convenient is
+
+165
+00:12:29,809 --> 00:12:35,179
+also Baraga in the future if I have
+
+166
+00:12:32,360 --> 00:12:37,879
+chance to get more data we can expand
+
+167
+00:12:35,179 --> 00:12:39,909
+our model or give more precise results
+
+168
+00:12:37,879 --> 00:12:43,398
+to our users
+
+169
+00:12:39,909 --> 00:12:45,819
+and this is the calculation behind our
+
+170
+00:12:43,399 --> 00:12:45,818
+model
+
+171
+00:13:03,659 --> 00:13:08,048
+[Music]
+
