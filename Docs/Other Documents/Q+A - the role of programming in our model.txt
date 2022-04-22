@@ -1,0 +1,8 @@
+Q: I didn't see you elaborate on the actual *programming* part (except from those algorithms), but it has been shown on the flow chart. So what's the role of programming in your model?
+
+Key Words: programming, computer-based simulation
+
+A: Firstly, we'd like to clarify that unlike real *simulations*, our programming focuses on accurately calculating a specific case rather than enumerating all the cases by brute force. Actually, even enumerating in such detail takes tremendous time. What we did, as mentioned before, were mathematically finding the optimal solution to minimizing the time steps and only operating on that possible optimum case. 
+
+The second critical point is that our programming can efficiently treat specific cases. Instead of again recursive calculating all variables within every time step, we use the previously deducted mathematical formulae and only calculate the velocities of passengers. To conclude, the programming work only conducts the algorithms and the irreducible formulae.
+
