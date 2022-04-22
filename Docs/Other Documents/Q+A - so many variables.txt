@@ -1,0 +1,6 @@
+Q: Why are there so many variables in your essay. / Why didn't I see explanations or calculations for some of the variables?
+
+Key Words: Too Many Variables
+
+A: We've mentioned that due to limits on length, we only focused on the core of problem, so we omitted trivial calculations of the less important variables, such as $l_i(A)$. In spite of these, we still remained the interconnections between variables to be logical.
+
