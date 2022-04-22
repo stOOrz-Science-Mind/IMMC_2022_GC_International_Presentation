@@ -1,0 +1,6 @@
+Q: So why did you think of these two matrixes. Did it just come out of nowhere?
+
+Key Words: Matrix
+
+A: There are mainly two reasons for this The first is that these matrixes have clear actual meanings. To be specific, the (1,1) element of the matrix represents whether a passenger is in the moving state, and the (2,2) element indicates the reason for not moving. This can be especially helpful when we calculate indicators such as $l_i(A)$ afterwards. The second reason is that they follow the ideal recursive pattern as we want. With these two factors combined, we believe the selection of these matrixes comes after close inspection.
+
