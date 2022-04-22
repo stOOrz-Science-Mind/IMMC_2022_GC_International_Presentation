@@ -1,0 +1,3 @@
+Q: What does One-dimensional meshed finite element analysis mean?
+
+A: As the passengers can only walk in the aisle or in their row (getting seated or offering seats), and they can't get from one row of seats to another, the structure of the aircraft is (for the passengers' motion) like a tree, with the cells as its nodes, which is a kind of One-dimensional meshed finite element analysis.
