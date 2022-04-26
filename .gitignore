@@ -445,3 +445,7 @@ GitHub.sublime-settings
 
 ~$*
 
+*.aux
+*.fdb_latexmk
+*.fls
+*.gz
